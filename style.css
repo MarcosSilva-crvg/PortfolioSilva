@@ -1,0 +1,347 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    .fjalla-one-regular {
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+body{
+    background-color: #302f2ff6;
+    height: 100vh;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.Ms-contato button{
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0s;
+}
+
+
+
+/* TOPO DO CABEÇALHO*/
+
+header{
+    padding: 40px 4%;
+    background: rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+
+header .Interface{
+    margin-left: 140PX;
+    display: flex;
+    align-items: center;
+    
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transform: 0.2s;
+}
+
+header  a:hover{
+     color: #fff;
+     transform: scale(1.50);
+}
+ 
+header nav ul{
+    list-style-type: none;
+    margin-left: 320px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+.Ms-contato button:hover, form .ss-contato input:hover{
+    box-shadow: 0px 1px 5000px  rgb(255, 251, 251);
+    transform: calc(2.0);
+    cursor: pointer;
+    transition: 0s;
+}
+
+/*topo do site*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1{
+    color: beige;
+    font-size: 42px;
+
+}
+.topo-do-site h1{
+    color: #fff;
+}
+
+.topo-do-site .txt-topo-site{
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuare 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes flutuare{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*ESTILOS DAS ESPECIALIDADES*/
+section{
+    width: 100%;
+}
+section.Especialidade .flex{
+    gap: 50px;
+    align-items: center;
+    justify-content: center
+}
+
+.Especialidade .Especialidade-box{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 19px;
+    border-radius: 60px;
+    border: 5px solid #e2dcdc;
+    margin-top: 35px;
+    transition: .2s;
+    text-align: center;
+   
+}
+.Interface{
+    padding-bottom: 15px;
+}
+
+.Especialidade .Especialidade-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 4px #fff;
+}
+
+.Especialidade .Especialidade-box i{
+    font-size: 40px;
+}
+.Especialidade .Especialidade-box h3{
+    font-size: 29px;
+    align-items: center;
+    margin: 4px 4%;
+    text-align: center;
+    color: rgb(255, 109, 109);
+}
+.Especialidade .Especialidade-box p1{
+    color: rgb(255, 109, 109);
+    font-size: 29px;
+}
+.Especialidade .Especialidade-box p3{
+    color: rgb(255, 109, 109);
+    font-size: 29px;
+}
+
+.Especialidade .Especialidade-box h5{
+    font-size: 29px;
+    align-items: center;
+    margin: 7px 2%;
+    text-align: center;
+    color: rgb(255, 109, 109);
+}
+/*SObre*/
+.apresentacao{
+    padding-top: 35px;
+}
+
+.titulos{
+    font-size: 60px;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 10);
+    padding: 80px 4%;
+    width: 100% auto;
+}
+
+.titulos h4{
+    color: white;
+}
+
+.titulos p1{
+    font-size: 20px;
+    margin: 7px 5%;
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    justify-content: center;
+    padding: 100px;
+    
+  }
+  
+  .eusilva{
+    width: 460px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da altura conforme a largura */
+    border-radius: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    animation: flutuar 2.4s infinite alternate;
+    border: 2px solid black;
+  }
+  @keyframes flutuar{
+    0%{
+       transform: translate(0);
+    }
+    100%{
+        transform: translate(20px);
+    }
+  }
+  
+  .texto{
+    margin-left: 25px; /* Adiciona margem à esquerda para separar o texto da imagem */
+    font-size: 20px;
+    text-align: left;
+  }
+  .bt-silva button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    border: white;
+  }
+  .bordar p{
+    display: inline-block;
+    border:  4px inset #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #757272;
+    color: #fafafa;
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  p{
+    color: #fff;
+}
+/*estilização do formulario*/
+
+section .contatto{
+    padding: 100px;
+
+}
+
+section .contatto h2{
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #444444;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+form textarea{
+    resize:none;
+    max-width: 200px 5%;
+}
+
+form textarea::placeholder{
+    color: white;
+}
+
+form input::placeholder{
+    color:white
+}
+
+form .ss-contato{
+    margin-top: 30px;
+    text-align: center;
+}
+form .ss-contato input{
+  width: 120px;
+  background-color: rgb(255, 248, 248);
+  color: #444444;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+footer .flex{
+    justify-content: space-between;
+} 
+
+.burda{
+    border-top: 2px solid white;
+}
+
+footer .line-footer{
+    padding: 18px;
+}
+
+footer .line-footer p i{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+footer .line-footer p a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 918px){
+    /*cabeçalho*/
+    .flex{
+        flex-direction: column-reverse;
+    }
+     .Especialidade .flex{
+        flex-direction: column-reverse;
+     }
+    .menu-desktop, .Ms-contat{
+        display: none;
+    }
+}
